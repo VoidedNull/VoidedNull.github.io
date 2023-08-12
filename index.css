@@ -33,6 +33,7 @@ body{
 }
 
 .text{
+  font-family: monospace;
   position: absolute;
   color: rgb(255, 255, 255);
   width: 120px;
@@ -75,12 +76,15 @@ body{
 }
 
 .header h1{
+  top: 10%;
+  left: 31%;
   background: linear-gradient(
     to right,
     var(--g1), 
     var(--g2), 
     var(--g1)
-    );
+  );
+  position:absolute;  
   font-size: clamp(3rem, 25vmin, 8rem);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3rem;
@@ -93,27 +97,4 @@ body{
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  /*animation-direction: alternate-reverse;*/
-}
-
-/*.header h1 {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 3rem;
-	font-weight:  100;
-	letter-spacing: 2px; 
-	text-align: center;
-	color: #26f39e;
-	background-image: -webkit-linear-gradient(92deg, #26e5f3, #3ac0fe);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 10s infinite linear;
-} */
-
-/*@-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
-};*/
+};
