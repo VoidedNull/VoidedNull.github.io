@@ -24,20 +24,54 @@ body{
       }
   }
 
-.butt svg{
-    width: 24px;
-    height: 24px;
-    transform: scale(3);
-    fill: rgb(122, 230, 79);
+.svg{
+  transition-duration: .3s;
+}
+
+.svg path{
+  fill: white;
+}
+
+.text{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 600;
+  opacity: 0;
+  transition-duration: .4s;  
+}
+
+.butt:hover{
+  width: 110px;
+  transition-duration: .4s;
+  border-radius: 30px;
+}
+
+.butt:hover .text{
+  opacity: 1;
+  transition-duration: .4s;
+}
+
+.butt:hover .svg{
+  opacity: 0;
+  transition-duration: .3s;
 }
 
 .butt{
-    border-color: transparent;
-    border-radius: 10px;
-    top: 45%;
-    background: transparent;
-    left: 49%;
-    position: absolute;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .4s;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(31, 31, 31);
+  overflow: hidden;
+  position:absolute;
+  top: 45%;
 }
 
 .header h1{
@@ -60,7 +94,6 @@ body{
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   /*animation-direction: alternate-reverse;*/
-
 }
 
 /*.header h1 {
