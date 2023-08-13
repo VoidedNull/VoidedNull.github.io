@@ -99,7 +99,7 @@ body{
   animation-iteration-count: infinite;
 };
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .header h1 {
       top: 10%;
       left: 31%;
