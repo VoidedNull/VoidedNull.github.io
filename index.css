@@ -101,6 +101,27 @@ body{
 
 @media screen and (max-width: 540px) {
     .header h1 {
-        font-size: 5rem;
+      top: 10%;
+      left: 31%;
+      background: linear-gradient(
+        to right,
+        var(--g1), 
+        var(--g2), 
+        var(--g1)
+      );
+      position:absolute;  
+      font-size: clamp(3rem, 25vmin, 8rem);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 6rem;
+      font-weight: 500;
+      color: transparent;
+      background-size: 400px;
+      background-clip: text;
+      -webkit-background-clip: text;
+      animation-name: pan;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    };
     }
 }
