@@ -99,7 +99,7 @@ body{
   animation-iteration-count: infinite;
 };
 
-@media screen and (max-width: 720px) {
+@media (max-width: 320px) {
     .header h1 {
       top: 10%;
       left: 31%;
@@ -123,5 +123,4 @@ body{
       animation-timing-function: linear;
       animation-iteration-count: infinite;
     };
-    }
-}
+  };
