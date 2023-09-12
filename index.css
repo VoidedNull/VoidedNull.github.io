@@ -13,9 +13,6 @@ body{
   justify-content: center;
   align-items: center;
   background-color: rgb(20, 20, 20);
-  /*background: hsla(204, 100%, 1%, 0.979);
-  background-image: radial-gradient(rgb(255, 255, 255) 5%, transparent 0);
-  background-size: 30px 30px;*/
 }
 
 #lines {
@@ -134,6 +131,7 @@ body{
   background-size: 400px;
   background-clip: text;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
   animation-name: pan;
   animation-duration: 3s;
   animation-timing-function: linear;
