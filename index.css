@@ -112,12 +112,7 @@ body{
 }
 
 .header{
-  background: linear-gradient(
-    to right,
-    var(--g1), 
-    var(--g2), 
-    var(--g1)
-  );
+  background: linear-gradient(to right, var(--g1), var(--g2), var(--g1));
   margin: 0;
   position: absolute;
   top: 50%;
@@ -128,16 +123,15 @@ body{
   font-size: 25px;
   font-weight: 500;
   color: transparent;
+  -webkit-text-fill-color: transparent;
   background-size: 400px;
   background-clip: text;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
   animation-name: pan;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 };
-
 
 @media (min-width: 320px) and (max-width: 480px)  {
   .header{
