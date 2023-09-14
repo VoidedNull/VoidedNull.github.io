@@ -275,11 +275,11 @@ radial-gradient(at 55% 24%, hsla(138,60%,62%,1) 0px, transparent 50%);
     margin: 0;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -200%); 
+    transform: translate(-52%, -40%); 
     position: absolute;
-    color: #b8b8b8;
-    font-size: 5px;
-    font-family: monospace;
+    color: rgb(20, 20, 20);
+    font-size: 25px;
+    font-family: 'Dancing Script', handwriting;
   }
 
 };
