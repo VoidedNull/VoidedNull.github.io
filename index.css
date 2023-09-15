@@ -283,6 +283,7 @@ body{
   .txt3{
     font-family: 'Azaret Mono', monospace;
     position: absolute;
+    font-size: 17px;
     bottom: 20%;
     left: 11%;
   }
@@ -326,7 +327,7 @@ body{
     overflow: hidden;
     position: absolute;
     top: 85%;
-    left: 65%;
+    left: 61%;
   }
 
   .butt{
