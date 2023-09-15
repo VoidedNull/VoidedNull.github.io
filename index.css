@@ -284,7 +284,7 @@ body{
     font-family: 'Azaret Mono', monospace;
     position: absolute;
     bottom: 20%;
-    left: 12%;
+    left: 10%;
   }
   
 
@@ -310,6 +310,23 @@ body{
     color: rgb(20, 20, 20);
     font-size: 19px;
     font-family: 'Dancing Script', handwriting;
+  }
+
+  .dark{
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: black 0px 0px 10px;
+    background-color: rgb(31, 31, 31);
+    overflow: hidden;
+    position: absolute;
+    top: 85%;
+    left: 60%;
   }
 
   .butt{
@@ -344,7 +361,7 @@ body{
     background-color: rgb(31, 31, 31);
     overflow: hidden;
     position:absolute;
-    top: 74%;
-    left: 45%;
+    top: 73%;
+    left: 46%;
   }
 };
